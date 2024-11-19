@@ -1,0 +1,11 @@
+import { FastifyAdapter } from '@nestjs/platform-fastify';
+import QueryString from 'qs';
+
+export class ApplicationAdapter extends FastifyAdapter {
+  constructor() {
+    super({
+      maxParamLength: 500,
+      querystringParser: QueryString.parse,
+    });
+  }
+}
