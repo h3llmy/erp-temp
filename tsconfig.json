@@ -21,30 +21,78 @@
     "resolveJsonModule": true,
     "strict": true,
     "paths": {
-      "@libs/common": ["libs/common/src"],
-      "@libs/common/*": ["libs/common/src/*"],
-      "@libs/encryption": ["libs/encryption/src"],
-      "@libs/encryption/*": ["libs/encryption/src/*"],
-      "@libs/randomize": ["libs/randomize/src"],
-      "@libs/randomize/*": ["libs/randomize/src/*"],
-      "@libs/payment-gateway": ["libs/payment-gateway/src"],
-      "@libs/payment-gateway/*": ["libs/payment-gateway/src/*"],
-      "@libs/auth-token": ["libs/auth-token/src"],
-      "@libs/auth-token/*": ["libs/auth-token/src/*"],
-      "@libs/database": ["libs/database/src"],
-      "@libs/database/*": ["libs/database/src/*"],
-      "@libs/csv": ["libs/csv/src"],
-      "@libs/csv/*": ["libs/csv/src/*"],
-      "@domains/auth": ["src/domains/auth"],
-      "@domains/auth/*": ["src/domains/auth/*"],
-      "@domains/permissions": ["src/domains/permissions"],
-      "@domains/permissions/*": ["src/domains/permissions/*"],
-      "@domains/roles": ["src/domains/roles"],
-      "@domains/roles/*": ["src/domains/roles/*"],
-      "@domains/users": ["src/domains/users"],
-      "@domains/users/*": ["src/domains/users/*"],
-      "@domains/mail": ["src/domains/mail"],
-      "@domains/mail/*": ["src/domains/mail/*"]
+      "@libs/common": [
+        "libs/common/src"
+      ],
+      "@libs/common/*": [
+        "libs/common/src/*"
+      ],
+      "@libs/encryption": [
+        "libs/encryption/src"
+      ],
+      "@libs/encryption/*": [
+        "libs/encryption/src/*"
+      ],
+      "@libs/randomize": [
+        "libs/randomize/src"
+      ],
+      "@libs/randomize/*": [
+        "libs/randomize/src/*"
+      ],
+      "@libs/payment-gateway": [
+        "libs/payment-gateway/src"
+      ],
+      "@libs/payment-gateway/*": [
+        "libs/payment-gateway/src/*"
+      ],
+      "@libs/auth-token": [
+        "libs/auth-token/src"
+      ],
+      "@libs/auth-token/*": [
+        "libs/auth-token/src/*"
+      ],
+      "@libs/database": [
+        "libs/database/src"
+      ],
+      "@libs/database/*": [
+        "libs/database/src/*"
+      ],
+      "@libs/csv": [
+        "libs/csv/src"
+      ],
+      "@libs/csv/*": [
+        "libs/csv/src/*"
+      ],
+      "@domains/auth": [
+        "src/domains/auth"
+      ],
+      "@domains/auth/*": [
+        "src/domains/auth/*"
+      ],
+      "@domains/permissions": [
+        "src/domains/permissions"
+      ],
+      "@domains/permissions/*": [
+        "src/domains/permissions/*"
+      ],
+      "@domains/roles": [
+        "src/domains/roles"
+      ],
+      "@domains/roles/*": [
+        "src/domains/roles/*"
+      ],
+      "@domains/users": [
+        "src/domains/users"
+      ],
+      "@domains/users/*": [
+        "src/domains/users/*"
+      ],
+      "@libs/mail": [
+        "libs/mail/src"
+      ],
+      "@libs/mail/*": [
+        "libs/mail/src/*"
+      ]
     }
   }
 }

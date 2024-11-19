@@ -132,7 +132,7 @@
       "^@domains/permissions(|/.*)$": "<rootDir>/src/domains/permissions/$1",
       "^@domains/roles(|/.*)$": "<rootDir>/src/domains/roles/$1",
       "^@domains/users(|/.*)$": "<rootDir>/src/domains/users/$1",
-      "^@domains/mail(|/.*)$": "<rootDir>/src/domains/mail/$1"
+      "^@libs/mail(|/.*)$": "<rootDir>/libs/mail/src/$1"
     }
   }
 }

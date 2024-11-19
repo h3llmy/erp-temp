@@ -5,7 +5,7 @@ import { BasicAuthService } from './basic-auth.service';
 import { RegisterUserDto } from './dto/register-user.dto';
 import { BadRequestException } from '@nestjs/common';
 import { Role } from '@domains/roles/entities/role.entity';
-import { MailService } from '@domains/mail/mail.service';
+import { MailService } from '@libs/mail';
 import { AuthTokenService } from '@libs/auth-token';
 import { UsersService } from '@domains/users/users.service';
 

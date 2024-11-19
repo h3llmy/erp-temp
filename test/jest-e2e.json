@@ -1,5 +1,9 @@
 {
-  "moduleFileExtensions": ["js", "json", "ts"],
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
   "rootDir": ".",
   "testEnvironment": "node",
   "testRegex": ".e2e-spec.ts$",
@@ -7,17 +11,18 @@
     "^.+\\.(t|j)s$": "ts-jest"
   },
   "moduleNameMapper": {
-    "^@libs/common(|/.*)$": "<rootDir>../libs/common/src/$1",
-    "^@libs/encryption(|/.*)$": "<rootDir>../libs/encryption/src/$1",
-    "^@libs/randomize(|/.*)$": "<rootDir>../libs/randomize/src/$1",
-    "^@libs/payment-gateway(|/.*)$": "<rootDir>../libs/payment-gateway/src/$1",
-    "^@libs/auth-token(|/.*)$": "<rootDir>../libs/auth-token/src/$1",
-    "^@libs/database(|/.*)$": "<rootDir>../libs/database/src/$1",
-    "^@libs/csv(|/.*)$": "<rootDir>../libs/csv/src/$1",
-    "^@domains/auth(|/.*)$": "<rootDir>../src/domains/auth/$1",
-    "^@domains/permissions(|/.*)$": "<rootDir>../src/domains/permissions/$1",
-    "^@domains/roles(|/.*)$": "<rootDir>../src/domains/roles/$1",
-    "^@domains/users(|/.*)$": "<rootDir>../src/domains/users/$1",
-    "^@domains/mail(|/.*)$": "<rootDir>../src/domains/mail/$1"
+    "@libs/common(|/.*)$": "<rootDir>../libs/common/src/$1",
+    "@libs/encryption(|/.*)$": "<rootDir>../libs/encryption/src/$1",
+    "@libs/randomize(|/.*)$": "<rootDir>../libs/randomize/src/$1",
+    "@libs/payment-gateway(|/.*)$": "<rootDir>../libs/payment-gateway/src/$1",
+    "@libs/auth-token(|/.*)$": "<rootDir>../libs/auth-token/src/$1",
+    "@libs/database(|/.*)$": "<rootDir>../libs/database/src/$1",
+    "@libs/csv(|/.*)$": "<rootDir>../libs/csv/src/$1",
+    "@domains/auth(|/.*)$": "<rootDir>../src/domains/auth/$1",
+    "@domains/permissions(|/.*)$": "<rootDir>../src/domains/permissions/$1",
+    "@domains/roles(|/.*)$": "<rootDir>../src/domains/roles/$1",
+    "@domains/users(|/.*)$": "<rootDir>../src/domains/users/$1",
+    "@libs/mail/(.*)": "<rootDir>/../libs/mail/src/$1",
+    "@libs/mail": "<rootDir>/../libs/mail/src"
   }
 }

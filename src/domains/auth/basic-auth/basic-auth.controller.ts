@@ -31,7 +31,7 @@ import { RefreshTokenErrorValidationDto } from './dto/refresh-token-error-valida
 import { ResendRegisterEmailDto } from './dto/resend-register-email.dto';
 import { ResendRegisterEmailErrorValidationDto } from './dto/resend-register-email-error-validation.dto';
 import { AuthTokenSchema, AuthTokenService } from '@libs/auth-token';
-import { MailService } from '@domains/mail/mail.service';
+import { MailService } from '@libs/mail';
 import { UsersService } from '@domains/users/users.service';
 
 @ApiTags('Auth')

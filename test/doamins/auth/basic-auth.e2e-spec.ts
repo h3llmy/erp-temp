@@ -7,7 +7,7 @@ import {
 } from '@libs/auth-token';
 import TestAgent from 'supertest/lib/agent';
 import { UsersService } from '@domains/users/users.service';
-import { MailService } from '@domains/mail/mail.service';
+import { MailService } from '@libs/mail';
 import { BasicAuthService } from '@domains/auth/basic-auth/basic-auth.service';
 import { mockUser } from '../../helper/mock/userAuth.mock';
 import { LoginDto } from '@domains/auth/basic-auth/dto/login-user.dto';
