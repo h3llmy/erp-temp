@@ -8,7 +8,7 @@ import { promises as fs } from 'fs';
 
 @Injectable()
 export class MailService {
-  private readonly transporter: Transporter;
+  private transporter: Transporter;
   private readonly baseTemplatePath: string = './views/basic-auth';
 
   constructor(private readonly configService: ConfigService) {
