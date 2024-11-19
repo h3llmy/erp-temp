@@ -41,6 +41,12 @@ Follow these steps to install the necessary dependencies and set up the project 
    npm install
    ```
 
+3. Setup husky for Git hooks:
+
+   ```bash
+   npm run prepare
+   ```
+
 This will install all the necessary packages listed in `package.json`, including NestJS and any additional dependencies used in the project.
 
 ---
