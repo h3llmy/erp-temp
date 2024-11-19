@@ -15,6 +15,7 @@ RUN apk add --no-cache curl
 COPY --from=builder /usr/api/package*.json ./
 RUN npm install --omit=dev --ignore-scripts
 COPY --from=builder /usr/api/dist ./dist
+COPY --from=builder /usr/api/views ./views
 
 EXPOSE ${PORT}
 

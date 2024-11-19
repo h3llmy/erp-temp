@@ -1,16 +1,15 @@
-import { createTransport, Transporter } from 'nodemailer';
+import { createTransport, Transporter, SentMessageInfo} from 'nodemailer';
 import ejs from 'ejs';
 import { User } from '@domains/users/entities/user.entity';
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { SentMessageInfo } from 'nodemailer';
 import path from 'path';
 import { promises as fs } from 'fs';
 
 @Injectable()
 export class MailService {
-  private transporter: Transporter;
-  private readonly baseTemplatePath: string = './src/domains/mail/views';
+  private readonly transporter: Transporter;
+  private readonly baseTemplatePath: string = './views/basic-auth';
 
   constructor(private readonly configService: ConfigService) {
     this.transporter = createTransport({
